@@ -1,23 +1,18 @@
 # PL-LOW
-"PL-LOW" is short for "Pipeline for employing a Lightweight deep learning models for LOW-power systems"
+A high-performance deep learning model lightweight pipeline that gradually lightens deep neural networks in order to utilize high-performance deep learning models in low-power systems with limited computational resources such as mobile/embedded devices.
+
+PL-LOW includes the following three lightweight element technologies that reduce the size of the deep learning model, the amount of computation required for inference, and the memory usage.
+- Deep learning model parameter lightweight technology that maintains high expressive power.
+- Deep learning model knowledge distillation technology that effectively learns high-level information.
+- Deep learning model lightweight inference technology for fast computation and high accuracy
 
 [<img src="./blob/figures/using_scenario.png">](http://di.postech.ac.kr/)
-
-# Features
-
-## 1. Scalable and Efficient Learning
-
-It manages dynamic data and models by using incremental learning. In other words, it efficiently reflects the data accumulated over time in the model at the previous time-stamp.
 
 # Authors
 
 #### Principal Investigator (PI)
 
 - Professor Hwanjo Yu (hwanjoyu@postech.ac.kr)
-
-#### Project Manager (PM)
-
-- Ph.D Student Junsu Cho (junsu7463@postech.ac.kr)
 
 # License
 
